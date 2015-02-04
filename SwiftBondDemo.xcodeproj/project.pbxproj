@@ -470,6 +470,7 @@
 				530127941A81E21C009FB5A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		530127951A81E21C009FB5A9 /* Build configuration list for PBXNativeTarget "SwiftBondDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +479,7 @@
 				530127971A81E21C009FB5A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
