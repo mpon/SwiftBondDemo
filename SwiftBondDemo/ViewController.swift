@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Bond
 
 class ViewController: UIViewController {
 
