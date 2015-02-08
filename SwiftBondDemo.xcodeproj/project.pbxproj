@@ -14,6 +14,7 @@
 		530127831A81E21C009FB5A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530127811A81E21C009FB5A9 /* LaunchScreen.xib */; };
 		5301278F1A81E21C009FB5A9 /* SwiftBondDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301278E1A81E21C009FB5A9 /* SwiftBondDemoTests.swift */; };
 		530127A31A81F27F009FB5A9 /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5301279E1A81E336009FB5A9 /* Bond.framework */; };
+		533442361A874B9000AEFDD7 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533442351A874B9000AEFDD7 /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		5301278D1A81E21C009FB5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5301278E1A81E21C009FB5A9 /* SwiftBondDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBondDemoTests.swift; sourceTree = "<group>"; };
 		530127981A81E336009FB5A9 /* Bond.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bond.xcodeproj; path = Bond/Bond.xcodeproj; sourceTree = "<group>"; };
+		533442351A874B9000AEFDD7 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				530127781A81E21C009FB5A9 /* AppDelegate.swift */,
 				5301277A1A81E21C009FB5A9 /* ViewController.swift */,
+				533442351A874B9000AEFDD7 /* DemoViewController.swift */,
 				5301277C1A81E21C009FB5A9 /* Main.storyboard */,
 				5301277F1A81E21C009FB5A9 /* Images.xcassets */,
 				530127811A81E21C009FB5A9 /* LaunchScreen.xib */,
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533442361A874B9000AEFDD7 /* DemoViewController.swift in Sources */,
 				5301277B1A81E21C009FB5A9 /* ViewController.swift in Sources */,
 				530127791A81E21C009FB5A9 /* AppDelegate.swift in Sources */,
 			);
