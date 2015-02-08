@@ -20,29 +20,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-                
-        // Do any additional setup after loading the view, typically from a nib.
-        let rule1a = reduce(usernameField, emailField, false) { username, email in
-            countElements(username) > 0 && countElements(email) > 0
+        
+        // ============= rule1 =============
+        let rule1a = reduce(usernameField, emailField, false) {
+            !($0.isEmpty || $1.isEmpty)
         }
-        
-        let rule1b = reduce(passwordField, passwordConfirmField, false) { password, confirmPassword in
-            password == confirmPassword
+        let rule1b = reduce(passwordField, passwordConfirmField, false) {
+            $0 == $1
         }
-        
-        let rule1c = passwordField.map {countElements($0) >= 8}
-                
-        reduce(rule1a, rule1b, rule1c, false) { rule1aOk, rule1bOk, rule1cOk in
-            rule1aOk && rule1bOk && rule1cOk
-        } ->> createButton
-        
-        reduce(passwordField, passwordConfirmField, "") { password, confirmPassword -> String in
-            password == confirmPassword ? "" : "The password does not match"
+        let rule1c = passwordField.map { countElements($0) >= 8 }
+        reduce(rule1a, rule1b, rule1c, false) { $0 && $1 && $2 } ->> createButton
+
+        // ============= rule2 =============
+        reduce(passwordField, passwordConfirmField, "") {
+            $0 == $1 ? "" : "The password does not match"
         } ->> errorLabel
         
     }
-    
-
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -1,6 +1,15 @@
 SwiftBond/Bond Demo
 =====
 
+### UITextField and UISlider
+
+![demo1](demo1.gif)
+
+### Validation
+
+![demo2](demo2.gif)
+
+
 Getting Started
 -----
 
@@ -9,3 +18,4 @@ Getting Started
 `git submodule update --init`
 
 `open SwiftBondDemo.xcodeproj`
+

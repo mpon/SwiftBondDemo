@@ -23,7 +23,9 @@ class DemoViewController: UIViewController {
         textField ->> textLabel
         
         // UISlider
-        slider.map({"Hi, my value is \($0)"}) ->> sliderLabel
+        slider
+            .map({"Hi, my value is \($0)"})
+            ->> sliderLabel
     }
 
     override func didReceiveMemoryWarning() {
