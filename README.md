@@ -1,6 +1,9 @@
 SwiftBond/Bond Demo
 =====
 
+!!! This demo project refere to my forked Bond repository, which is not original. So, you do not refere to this project. This project is for my study only.
+---
+
 ### UITextField and UISlider
 
 ![demo1](demo1.gif)
