@@ -1,11 +1,14 @@
 SwiftBond/Bond Demo
 =====
 
-### UITextField and UISlider
+UITextField and UISlider
+---
 
+### About
 
 ![demo1](demo1.gif)
 
+### Code
 
 ```swift
 override func viewDidLoad() {
@@ -22,7 +25,10 @@ override func viewDidLoad() {
 }
 ```
 
-### Validation
+Validation
+---
+
+### About
 
 This is the common example of validating a signup form.
 
@@ -33,6 +39,8 @@ This is the common example of validating a signup form.
 - rule2: if password and password confirmation are different, output error message.
 
 ![demo2](demo2.gif)
+
+### Code
 
 ```swift
 override func viewDidLoad() {
