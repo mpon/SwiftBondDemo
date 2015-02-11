@@ -1,4 +1,4 @@
-SwiftBond/Bond Demo
+[SwiftBond/Bond](https://github.com/SwiftBond/Bond) Demo
 =====
 
 UITextField and UISlider
