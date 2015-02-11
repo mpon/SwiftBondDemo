@@ -15,6 +15,7 @@
 		5301278F1A81E21C009FB5A9 /* SwiftBondDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301278E1A81E21C009FB5A9 /* SwiftBondDemoTests.swift */; };
 		530127A31A81F27F009FB5A9 /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5301279E1A81E336009FB5A9 /* Bond.framework */; };
 		533442361A874B9000AEFDD7 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533442351A874B9000AEFDD7 /* DemoViewController.swift */; };
+		53AD288E1A8B83740048875F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 53AD288D1A8B83740048875F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,20 @@
 			remoteGlobalIDString = 69491BAD1A7C217100A13B6B;
 			remoteInfo = Bond;
 		};
+		53AD28921A8B83740048875F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 530127981A81E336009FB5A9 /* Bond.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCA979691A83C3A100DD4A30;
+			remoteInfo = BondOSX;
+		};
+		53AD28941A8B83740048875F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 530127981A81E336009FB5A9 /* Bond.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCA979731A83C3A200DD4A30;
+			remoteInfo = BondOSXTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +76,7 @@
 		5301278E1A81E21C009FB5A9 /* SwiftBondDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBondDemoTests.swift; sourceTree = "<group>"; };
 		530127981A81E336009FB5A9 /* Bond.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bond.xcodeproj; path = Bond/Bond.xcodeproj; sourceTree = "<group>"; };
 		533442351A874B9000AEFDD7 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		53AD288D1A8B83740048875F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +101,7 @@
 		5301276A1A81E21C009FB5A9 = {
 			isa = PBXGroup;
 			children = (
+				53AD288D1A8B83740048875F /* README.md */,
 				530127981A81E336009FB5A9 /* Bond.xcodeproj */,
 				530127751A81E21C009FB5A9 /* SwiftBondDemo */,
 				5301278B1A81E21C009FB5A9 /* SwiftBondDemoTests */,
@@ -145,6 +162,8 @@
 			children = (
 				5301279E1A81E336009FB5A9 /* Bond.framework */,
 				530127A01A81E336009FB5A9 /* BondTests.xctest */,
+				53AD28931A8B83740048875F /* Bond.framework */,
+				53AD28951A8B83740048875F /* BondOSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,6 +265,20 @@
 			remoteRef = 5301279F1A81E336009FB5A9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		53AD28931A8B83740048875F /* Bond.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Bond.framework;
+			remoteRef = 53AD28921A8B83740048875F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		53AD28951A8B83740048875F /* BondOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BondOSXTests.xctest;
+			remoteRef = 53AD28941A8B83740048875F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -275,6 +308,7 @@
 			files = (
 				533442361A874B9000AEFDD7 /* DemoViewController.swift in Sources */,
 				5301277B1A81E21C009FB5A9 /* ViewController.swift in Sources */,
+				53AD288E1A8B83740048875F /* README.md in Sources */,
 				530127791A81E21C009FB5A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
