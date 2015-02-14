@@ -21,12 +21,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // designate dynamic
-        let username = usernameField.designatedDynamic()
-        let email = usernameField.designatedDynamic()
-        let password = passwordField.designatedDynamic()
-        let passwordConfirm = passwordConfirmField.designatedDynamic()
-
+        // designate text dynamic
+        let username = usernameField.textDynamic()
+        let email = usernameField.textDynamic()
+        let password = passwordField.textDynamic()
+        let passwordConfirm = passwordConfirmField.textDynamic()
+        
         // ============= rule1 =============
         let rule1a = reduce(username, email, false) { !($0.isEmpty || $1.isEmpty) }
         let rule1b = reduce(password, passwordConfirm, false) { $0 == $1 }

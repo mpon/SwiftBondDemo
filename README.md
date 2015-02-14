@@ -19,7 +19,7 @@ override func viewDidLoad() {
 
     // UISlider
     slider
-        .designatedDynamic()
+        .valueDynamic()
         .map({"Hi, my value is \($0)"})
         ->> sliderLabel
 }
@@ -46,11 +46,11 @@ This is the common example of validating a signup form.
 override func viewDidLoad() {
     super.viewDidLoad()
 
-    // designate dynamic
-    let username = usernameField.designatedDynamic()
-    let email = usernameField.designatedDynamic()
-    let password = passwordField.designatedDynamic()
-    let passwordConfirm = passwordConfirmField.designatedDynamic()
+    // designate text dynamic
+    let username = usernameField.textDynamic()
+    let email = usernameField.textDynamic()
+    let password = passwordField.textDynamic()
+    let passwordConfirm = passwordConfirmField.textDynamic()
 
     // ============= rule1 =============
     let rule1a = reduce(username, email, false) { !($0.isEmpty || $1.isEmpty) }

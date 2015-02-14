@@ -24,7 +24,7 @@ class DemoViewController: UIViewController {
         
         // UISlider
         slider
-            .designatedDynamic()
+            .valueDynamic()
             .map({"Hi, my value is \($0)"})
             ->> sliderLabel
     }
