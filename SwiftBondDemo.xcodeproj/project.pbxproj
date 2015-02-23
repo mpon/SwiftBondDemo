@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272EA11921A034AA750DBE4D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8EC0775541DC3496D90020 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		530127791A81E21C009FB5A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530127781A81E21C009FB5A9 /* AppDelegate.swift */; };
 		5301277B1A81E21C009FB5A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301277A1A81E21C009FB5A9 /* ViewController.swift */; };
 		5301277E1A81E21C009FB5A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5301277C1A81E21C009FB5A9 /* Main.storyboard */; };
 		530127801A81E21C009FB5A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5301277F1A81E21C009FB5A9 /* Images.xcassets */; };
 		530127831A81E21C009FB5A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530127811A81E21C009FB5A9 /* LaunchScreen.xib */; };
 		5301278F1A81E21C009FB5A9 /* SwiftBondDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301278E1A81E21C009FB5A9 /* SwiftBondDemoTests.swift */; };
-		530127A31A81F27F009FB5A9 /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5301279E1A81E336009FB5A9 /* Bond.framework */; };
 		533442361A874B9000AEFDD7 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533442351A874B9000AEFDD7 /* DemoViewController.swift */; };
-		53AD288E1A8B83740048875F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 53AD288D1A8B83740048875F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,41 +24,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 530127721A81E21C009FB5A9;
 			remoteInfo = SwiftBondDemo;
-		};
-		5301279D1A81E336009FB5A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 530127981A81E336009FB5A9 /* Bond.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 69491BAE1A7C217100A13B6B;
-			remoteInfo = Bond;
-		};
-		5301279F1A81E336009FB5A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 530127981A81E336009FB5A9 /* Bond.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 69491BB91A7C217100A13B6B;
-			remoteInfo = BondTests;
-		};
-		530127A11A81F27B009FB5A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 530127981A81E336009FB5A9 /* Bond.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 69491BAD1A7C217100A13B6B;
-			remoteInfo = Bond;
-		};
-		53AD28921A8B83740048875F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 530127981A81E336009FB5A9 /* Bond.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCA979691A83C3A100DD4A30;
-			remoteInfo = BondOSX;
-		};
-		53AD28941A8B83740048875F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 530127981A81E336009FB5A9 /* Bond.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCA979731A83C3A200DD4A30;
-			remoteInfo = BondOSXTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -74,9 +38,11 @@
 		530127881A81E21C009FB5A9 /* SwiftBondDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBondDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5301278D1A81E21C009FB5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5301278E1A81E21C009FB5A9 /* SwiftBondDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBondDemoTests.swift; sourceTree = "<group>"; };
-		530127981A81E336009FB5A9 /* Bond.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bond.xcodeproj; path = Bond/Bond.xcodeproj; sourceTree = "<group>"; };
 		533442351A874B9000AEFDD7 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		53AD288D1A8B83740048875F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CC8EC0775541DC3496D90020 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59AE43E6FB490B574ACF4ED /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DBAA954DEEB0267ED9CCC0AA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530127A31A81F27F009FB5A9 /* Bond.framework in Frameworks */,
+				272EA11921A034AA750DBE4D /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				53AD288D1A8B83740048875F /* README.md */,
-				530127981A81E336009FB5A9 /* Bond.xcodeproj */,
 				530127751A81E21C009FB5A9 /* SwiftBondDemo */,
 				5301278B1A81E21C009FB5A9 /* SwiftBondDemoTests */,
 				530127741A81E21C009FB5A9 /* Products */,
+				7EDE5542BA3212538DB81274 /* Pods */,
+				CDB235E7C1DA9E55DD70ACAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,15 +124,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		530127991A81E336009FB5A9 /* Products */ = {
+		7EDE5542BA3212538DB81274 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5301279E1A81E336009FB5A9 /* Bond.framework */,
-				530127A01A81E336009FB5A9 /* BondTests.xctest */,
-				53AD28931A8B83740048875F /* Bond.framework */,
-				53AD28951A8B83740048875F /* BondOSXTests.xctest */,
+				D59AE43E6FB490B574ACF4ED /* Pods.debug.xcconfig */,
+				DBAA954DEEB0267ED9CCC0AA /* Pods.release.xcconfig */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDB235E7C1DA9E55DD70ACAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC8EC0775541DC3496D90020 /* Pods.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,14 +148,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 530127921A81E21C009FB5A9 /* Build configuration list for PBXNativeTarget "SwiftBondDemo" */;
 			buildPhases = (
+				E92E7D7FDFB5069643FF9F06 /* Check Pods Manifest.lock */,
 				5301276F1A81E21C009FB5A9 /* Sources */,
 				530127701A81E21C009FB5A9 /* Frameworks */,
 				530127711A81E21C009FB5A9 /* Resources */,
+				84F1B0D1AA525464F0ADCC9E /* Embed Pods Frameworks */,
+				23A1DE47B5A4513AD39668F8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				530127A21A81F27B009FB5A9 /* PBXTargetDependency */,
 			);
 			name = SwiftBondDemo;
 			productName = SwiftBondDemo;
@@ -236,12 +211,6 @@
 			mainGroup = 5301276A1A81E21C009FB5A9;
 			productRefGroup = 530127741A81E21C009FB5A9 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 530127991A81E336009FB5A9 /* Products */;
-					ProjectRef = 530127981A81E336009FB5A9 /* Bond.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				530127721A81E21C009FB5A9 /* SwiftBondDemo */,
@@ -249,37 +218,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		5301279E1A81E336009FB5A9 /* Bond.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Bond.framework;
-			remoteRef = 5301279D1A81E336009FB5A9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		530127A01A81E336009FB5A9 /* BondTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = BondTests.xctest;
-			remoteRef = 5301279F1A81E336009FB5A9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		53AD28931A8B83740048875F /* Bond.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Bond.framework;
-			remoteRef = 53AD28921A8B83740048875F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		53AD28951A8B83740048875F /* BondOSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = BondOSXTests.xctest;
-			remoteRef = 53AD28941A8B83740048875F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		530127711A81E21C009FB5A9 /* Resources */ = {
@@ -301,6 +239,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23A1DE47B5A4513AD39668F8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F1B0D1AA525464F0ADCC9E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E92E7D7FDFB5069643FF9F06 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5301276F1A81E21C009FB5A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -308,7 +294,6 @@
 			files = (
 				533442361A874B9000AEFDD7 /* DemoViewController.swift in Sources */,
 				5301277B1A81E21C009FB5A9 /* ViewController.swift in Sources */,
-				53AD288E1A8B83740048875F /* README.md in Sources */,
 				530127791A81E21C009FB5A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,11 +313,6 @@
 			isa = PBXTargetDependency;
 			target = 530127721A81E21C009FB5A9 /* SwiftBondDemo */;
 			targetProxy = 530127891A81E21C009FB5A9 /* PBXContainerItemProxy */;
-		};
-		530127A21A81F27B009FB5A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Bond;
-			targetProxy = 530127A11A81F27B009FB5A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -437,6 +417,7 @@
 		};
 		530127931A81E21C009FB5A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59AE43E6FB490B574ACF4ED /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftBondDemo/Info.plist;
@@ -447,6 +428,7 @@
 		};
 		530127941A81E21C009FB5A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBAA954DEEB0267ED9CCC0AA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftBondDemo/Info.plist;

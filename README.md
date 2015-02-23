@@ -69,9 +69,9 @@ override func viewDidLoad() {
 Getting Started
 -----
 
-`git clone https://github.com/mpon/SwiftBondDemo.git`
-
-`git submodule update --init`
-
-`open SwiftBondDemo.xcodeproj`
-
+```
+$ git clone https://github.com/mpon/SwiftBondDemo.git
+$ bundle install --path=vendor/bundle
+$ bundle exec pod install
+$ open SwiftBondDemo.xcworkspace
+```
