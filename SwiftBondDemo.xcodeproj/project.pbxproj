@@ -13,19 +13,8 @@
 		5301277E1A81E21C009FB5A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5301277C1A81E21C009FB5A9 /* Main.storyboard */; };
 		530127801A81E21C009FB5A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5301277F1A81E21C009FB5A9 /* Images.xcassets */; };
 		530127831A81E21C009FB5A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530127811A81E21C009FB5A9 /* LaunchScreen.xib */; };
-		5301278F1A81E21C009FB5A9 /* SwiftBondDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301278E1A81E21C009FB5A9 /* SwiftBondDemoTests.swift */; };
 		533442361A874B9000AEFDD7 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533442351A874B9000AEFDD7 /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		530127891A81E21C009FB5A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5301276B1A81E21C009FB5A9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 530127721A81E21C009FB5A9;
-			remoteInfo = SwiftBondDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		530127731A81E21C009FB5A9 /* SwiftBondDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBondDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,9 +24,6 @@
 		5301277D1A81E21C009FB5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5301277F1A81E21C009FB5A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		530127821A81E21C009FB5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		530127881A81E21C009FB5A9 /* SwiftBondDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBondDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5301278D1A81E21C009FB5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5301278E1A81E21C009FB5A9 /* SwiftBondDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBondDemoTests.swift; sourceTree = "<group>"; };
 		533442351A874B9000AEFDD7 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		53AD288D1A8B83740048875F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC8EC0775541DC3496D90020 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,13 +40,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		530127851A81E21C009FB5A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -69,7 +48,6 @@
 			children = (
 				53AD288D1A8B83740048875F /* README.md */,
 				530127751A81E21C009FB5A9 /* SwiftBondDemo */,
-				5301278B1A81E21C009FB5A9 /* SwiftBondDemoTests */,
 				530127741A81E21C009FB5A9 /* Products */,
 				7EDE5542BA3212538DB81274 /* Pods */,
 				CDB235E7C1DA9E55DD70ACAC /* Frameworks */,
@@ -80,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				530127731A81E21C009FB5A9 /* SwiftBondDemo.app */,
-				530127881A81E21C009FB5A9 /* SwiftBondDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,23 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				530127771A81E21C009FB5A9 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5301278B1A81E21C009FB5A9 /* SwiftBondDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				5301278E1A81E21C009FB5A9 /* SwiftBondDemoTests.swift */,
-				5301278C1A81E21C009FB5A9 /* Supporting Files */,
-			);
-			path = SwiftBondDemoTests;
-			sourceTree = "<group>";
-		};
-		5301278C1A81E21C009FB5A9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5301278D1A81E21C009FB5A9 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,24 +124,6 @@
 			productReference = 530127731A81E21C009FB5A9 /* SwiftBondDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		530127871A81E21C009FB5A9 /* SwiftBondDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 530127951A81E21C009FB5A9 /* Build configuration list for PBXNativeTarget "SwiftBondDemoTests" */;
-			buildPhases = (
-				530127841A81E21C009FB5A9 /* Sources */,
-				530127851A81E21C009FB5A9 /* Frameworks */,
-				530127861A81E21C009FB5A9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5301278A1A81E21C009FB5A9 /* PBXTargetDependency */,
-			);
-			name = SwiftBondDemoTests;
-			productName = SwiftBondDemoTests;
-			productReference = 530127881A81E21C009FB5A9 /* SwiftBondDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,10 +135,6 @@
 				TargetAttributes = {
 					530127721A81E21C009FB5A9 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					530127871A81E21C009FB5A9 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 530127721A81E21C009FB5A9;
 					};
 				};
 			};
@@ -214,7 +152,6 @@
 			projectRoot = "";
 			targets = (
 				530127721A81E21C009FB5A9 /* SwiftBondDemo */,
-				530127871A81E21C009FB5A9 /* SwiftBondDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -227,13 +164,6 @@
 				5301277E1A81E21C009FB5A9 /* Main.storyboard in Resources */,
 				530127831A81E21C009FB5A9 /* LaunchScreen.xib in Resources */,
 				530127801A81E21C009FB5A9 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		530127861A81E21C009FB5A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,23 +228,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		530127841A81E21C009FB5A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5301278F1A81E21C009FB5A9 /* SwiftBondDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5301278A1A81E21C009FB5A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 530127721A81E21C009FB5A9 /* SwiftBondDemo */;
-			targetProxy = 530127891A81E21C009FB5A9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5301277C1A81E21C009FB5A9 /* Main.storyboard */ = {
@@ -437,40 +351,6 @@
 			};
 			name = Release;
 		};
-		530127961A81E21C009FB5A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftBondDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBondDemo.app/SwiftBondDemo";
-			};
-			name = Debug;
-		};
-		530127971A81E21C009FB5A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftBondDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBondDemo.app/SwiftBondDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -488,15 +368,6 @@
 			buildConfigurations = (
 				530127931A81E21C009FB5A9 /* Debug */,
 				530127941A81E21C009FB5A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		530127951A81E21C009FB5A9 /* Build configuration list for PBXNativeTarget "SwiftBondDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				530127961A81E21C009FB5A9 /* Debug */,
-				530127971A81E21C009FB5A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
