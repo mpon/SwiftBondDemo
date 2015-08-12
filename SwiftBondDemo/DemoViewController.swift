@@ -23,10 +23,7 @@ class DemoViewController: UIViewController {
         textField ->> textLabel
         
         // UISlider
-        slider
-            .valueDynamic()
-            .map({"Hi, my value is \($0)"})
-            ->> sliderLabel
+        slider.dynValue.map({"Hi, my value is \($0)"}) ->> sliderLabel
     }
 
     override func didReceiveMemoryWarning() {

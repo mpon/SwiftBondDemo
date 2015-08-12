@@ -1,1 +1,3 @@
-pod 'Bond', '~> 2.3'
+use_frameworks!
+
+pod 'Bond'

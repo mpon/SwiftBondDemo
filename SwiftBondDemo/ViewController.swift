@@ -22,19 +22,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // designate text dynamic
-        let username = usernameField.textDynamic()
-        let email = usernameField.textDynamic()
-        let password = passwordField.textDynamic()
-        let passwordConfirm = passwordConfirmField.textDynamic()
+        let username = usernameField.dynText
+        let email = usernameField.dynText
+        let password = passwordField.dynText
+        let passwordConfirm = passwordConfirmField.dynText
         
         // ============= rule1 =============
-        let rule1a = reduce(username, email, false) { !($0.isEmpty || $1.isEmpty) }
-        let rule1b = reduce(password, passwordConfirm, false) { $0 == $1 }
-        let rule1c = password.map { countElements($0) >= 8 }
-        reduce(rule1a, rule1b, rule1c, false) { $0 && $1 && $2 } ->> createButton
+        let rule1a = reduce(username, email) { !($0.isEmpty || $1.isEmpty) }
+        let rule1b = reduce(password, passwordConfirm) { $0 == $1 }
+        let rule1c = password.map { count($0) >= 8 }
+        reduce(rule1a, rule1b, rule1c) { $0 && $1 && $2 } ->> createButton
 
         // ============= rule2 =============
-        reduce(password, passwordConfirm, "") {
+        reduce(password, passwordConfirm) {
             $0 == $1 ? "" : "The password does not match"
         } ->> errorLabel
         
